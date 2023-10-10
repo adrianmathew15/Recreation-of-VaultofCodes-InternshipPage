@@ -1,0 +1,377 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700&display=swap');
+
+*{
+    margin:0; 
+    padding:0;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+#header{
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 80px;
+    background-image: linear-gradient(to right, #527BB7, #343878);
+    box-shadow: 0 5px 15px rgb(0,0,0,0.06);
+    z-index:999;
+    top:0;
+    left:0;
+    position:sticky;
+}
+
+#header .logo {
+    width: 100px; /* Adjust the width as needed */
+    cursor: pointer;
+    position: relative;
+    /*top: 700%; /* Move the logo down by 50% of its own height */
+    border-radius: 35%;
+    margin-left: 10px;
+   /* transform: translateY(20%); /* Center the logo vertically  */
+}
+
+.navigation li {
+    list-style: none;
+    margin: 0 20px;
+    position: relative;
+  }
+  
+  .navigation ul li {
+    display: inline-block;
+  }
+  
+  .navigation li a.active {
+    color: #F57D26;
+  }
+  
+  .navigation ul li a {
+    text-decoration: none;
+    color:  #edf0f1;
+    text-transform: uppercase;
+    font-weight: bold;
+  }
+  
+  .navigation ul li::after {
+    content: "";
+    height: 3px;
+    width: 0;
+    background: #F57D26;
+    position: absolute;
+    left: 0;
+    bottom: -10px;
+    transition: 0.75s;
+  }
+  
+  .navigation ul li.active::after,
+  .navigation ul li:hover::after {
+    width: 100%;
+  }
+  
+  .navigation ul li a.active::after {
+    content: "";
+    height: 3px;
+    width: 100%;
+    background: #F57D26;
+    position: absolute;
+    left: 0;
+    bottom: -10px;
+    transition: 0.75s;
+  }
+  
+  .navigation ul li a:hover {
+    color: #F57D26;
+  }
+
+.wrapper {
+    background-image: linear-gradient(to right, #d3e5f4, #cfc2ef);
+    background-repeat: no-repeat;
+}
+  
+.underline{
+    width:100%;
+    height:5px;
+    background:#767676;
+    border-radius: 3px;
+    position:absolute;
+    top: 25px;
+    left:0;
+    overflow:hidden;
+  }
+  
+  
+  .underline span{
+    width: 15px;
+    height: 100%;
+    background: #fff;
+    border-radius: 3px;
+    position: absolute;
+    top:0;
+    left:10px;
+    animation: transition 2s linear infinite;
+  }
+  
+  #product1 h1 {
+    position: relative; /* Add this to make the h1 element a positioned container */
+    display: inline-block;
+    color:#0b6193e3;
+    font-size: 40px;
+    font-weight:bold;
+    text-align: center;
+    justify-content: center;
+    margin-left: 300px;
+    margin-top: 40px;
+  }
+
+  .details-list {
+    color:#000000;
+    font-size: 20px;
+    line-height: 1.8;
+    list-style:disc;
+    text-align: left;
+    margin-left: 20px;
+    margin-top: 7px;
+  }
+  
+  .sub-box {
+    display: flex;
+    align-items: left;
+    justify-content: left;
+    height: 100%;
+    margin-top: 20px;
+    margin-left: 100px;
+  }
+  
+  .sub-header {
+    color:#444;
+    margin-left: 100px;
+    margin-top: 60px;
+    font-size: 35px;
+    font-weight:bold;
+  }
+  
+  .form-box {
+    padding: 10px;
+    border-radius: 5px;
+    background: #ececec;
+    box-shadow: 10px 10px 15px #c7c4c4, 10px 10px 15px #fff;
+  }
+  
+  .form-box input {
+    font-size: 18px;
+    color: #000;
+    padding: 10px 15px;
+    outline: none;
+    background: #ececec;
+    border: none;
+  }
+  
+  .form-box button {
+    color: #fff;
+    padding: 15px 20px;
+    font-size: 20px;
+    border: none;
+    border-radius: 5px;
+    background: #4769d8;
+    cursor: pointer;
+    transition: .3s;
+    margin-left: 60px;
+  }
+  
+  .form-box button:hover {
+    background: #2e54d3;
+  }
+  
+  footer{
+    width: 100%;
+    position: relative;
+    bottom: 0;
+    left:0;
+    background: linear-gradient(to right, #00093c, #2d0b00);
+    color: #fff;
+    padding: 100px 0 30px;
+    font-size: 13px;
+    line-height: 20px;
+    box-sizing: border-box;
+  }
+  .ROW{
+    width:85%;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    justify-content: space-between;
+  }
+  .COL{
+    flex-basis: 25%;
+    padding: 10px;
+  }
+  .COL:nth-child(2){
+    flex-basis: 15%;
+  }
+  .COL:nth-child(3){
+    flex-basis:10%;
+  }
+  .COL:nth-child(4){
+    flex-basis: 25%;
+  }
+  
+  .LOGO-brand{
+    width: 100px; /* Adjust the width as needed */
+    cursor: pointer;
+    position: relative;
+    /*top: 700%; /* Move the logo down by 50% of its own height */
+    border-radius: 35%;
+    margin-left: 10px;
+  }
+  
+  .COL h3{
+    width: fit-content;
+    margin-bottom: 40px;
+    position: relative;
+  }
+  .email-id{
+    width: fit-content;
+    border-bottom: 1px solid #ccc;
+    margin: 20px 0;
+  }
+  .foot li{
+    list-style: none;
+    margin-bottom: 12px;
+  }
+  .foot li a{
+    text-decoration: none;
+    color: #fff;
+  }
+  .COL .fa-brands{
+    width:40px;
+    height: 40px;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 40px;
+    margin-top: 40px;
+    font-size: 20px;
+    cursor:pointer; 
+    background-color: #fff;
+    color: #000;
+    margin: 4px 8px;
+  }
+  .COL .foot ul li{
+    list-style: none;
+    margin-bottom: 12px;
+  }
+  .COL .foot ul li a{
+    text-decoration: none;
+    color: #fff;
+  }
+  
+  hr{
+    color: #fff;
+    width: 90%;
+    border:0;
+    border-bottom: 1px solid #ccc;
+    margin: 20px auto;
+  }
+  
+  .CopyRights{
+    text-align: center;
+  }
+
+
+.short-description {
+    margin-left: 200px;
+    margin-top: 30px;
+}
+
+.short-description h3{
+   font-size: 28px;
+}
+
+.about{
+    margin-left: 200px;
+    margin-top: 20px;
+}  
+
+.about h3 {
+    font-size: 28px ;
+}
+
+.about p {
+    margin-top: 10px;
+    margin-right: 70px;
+    font-size: 20px;
+    line-height: 1.5;
+    text-align: justify;
+}
+
+.description {
+    margin-left: 200px;
+    margin-top: 20px;
+}
+
+.description h3 {
+    font-size: 28px;
+    margin-top: 10px;
+}
+
+.description ol {
+    margin-right: 70px;
+    font-size: 20px;
+    line-height: 1.5;
+    text-align: justify;
+}
+
+.description li {
+    margin-top: 20px;
+    margin-left: 15px;
+}
+
+.description strong {
+    font-size: 22px;
+}
+
+.apply {
+    margin-left: 200px;
+    margin-top: 20px;
+}
+
+.apply ul {
+    margin-right: 70px;
+    font-size: 20px;
+    line-height: 1.5;
+    text-align: justify;
+}
+
+.apply li {
+    margin-top: 10px;
+    margin-left: 15px;
+}
+
+.apply p {
+    font-size: 25px;
+    margin-top: 40px;
+    text-align: justify;
+    margin-right: 70px;
+}
+
+.button-apply button{
+        height: 55px;
+        width: 200px;
+        padding: 15px 0;
+        text-align: center;
+        margin-left: 200px;
+        margin-top: 30px;
+        border-radius: 25px;
+        font-weight: bold;
+        border: 0px solid #4769d8;
+        background: #4769d8;
+        color: #fff;
+        cursor: pointer;
+        position: relative;
+        overflow: hidden;
+}
+
+
+.button-apply button:hover{
+    background-color: #2743a0;
+    border: none;
+}
+
