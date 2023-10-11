@@ -1,3 +1,7 @@
+/*Stylesheet for the details of each Internship Proram Details Page
+Author: Adrian Mathew Aloysius
+*/
+
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700&display=swap');
 
 *{
@@ -275,7 +279,7 @@
     text-align: center;
   }
 
-
+/*Styling for Short description of program*/
 .short-description {
     margin-left: 200px;
     margin-top: 30px;
@@ -285,6 +289,7 @@
    font-size: 28px;
 }
 
+/*Styling for the About Details*/
 .about{
     margin-left: 200px;
     margin-top: 20px;
@@ -302,6 +307,7 @@
     text-align: justify;
 }
 
+/*Styling for the Comprehensive Curriculum Details*/
 .description {
     margin-left: 200px;
     margin-top: 20px;
@@ -328,6 +334,7 @@
     font-size: 22px;
 }
 
+/*Styling for the Apply Button*/
 .apply {
     margin-left: 200px;
     margin-top: 20px;
@@ -374,4 +381,3 @@
     background-color: #2743a0;
     border: none;
 }
-

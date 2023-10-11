@@ -1,10 +1,17 @@
+/*Cascading Style Sheet for the VaultofCodes Internship Page.
+Author: Adrian Mathew Aloysius
+*/
+
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700&display=swap');
 
+/*Universal Selector to set margins to 0 and use 'Gill-Sans' font'*/
 *{
     margin:0; 
     padding:0;
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
+
+/*Styling for background image of Welcome Banner*/
 .backgroundimg{
     width: 100%;
     height: 80vh;
@@ -12,6 +19,8 @@
     background-size: cover;
     background-position: center;        
 }
+
+/*Styling for the Header Section*/
 #header{
     display:flex;
     align-items: center;
@@ -25,16 +34,16 @@
     position:sticky;
 }
 
+/*Styling for logo in Navigation bar*/
 #header .logo {
     width: 100px; /* Adjust the width as needed */
     cursor: pointer;
     position: relative;
-    /*top: 700%; /* Move the logo down by 50% of its own height */
     border-radius: 35%;
     margin-left: 10px;
-   /* transform: translateY(20%); /* Center the logo vertically  */
 }
 
+/*Styling for Navigation list elements*/
 .navigation li {
     list-style: none;
     margin: 0 20px;
@@ -87,6 +96,7 @@
     color: #F57D26;
   }
 
+/*Styling for Welcome Banner*/
 .content{
     width:100%;
     position: absolute;
@@ -105,48 +115,8 @@
     line-height: 25px;
     font-size:23px;
 }
-.content button{
-    width: 200px;
-    padding: 15px 0;
-    text-align: center;
-    margin: 20px 10px;
-    border-radius: 25px;
-    font-weight: bold;
-    border: 2px solid #09fefa;
-    background: transparent;
-    color: #fff;
-    cursor: pointer;
-    position: relative;
-    overflow: hidden;
-}
 
-.content span{
-    background: #1ed4ec;
-    height: 100%;
-    width: 0;
-    border-radius: 25px;
-    position: absolute;
-    left:0;
-    bottom:0;
-    z-index: -1;
-    transition: 0.5s;
-}
-.content button:hover span{
-    width: 100%;
-
-}
-.content button:hover{
-    border: none;
-}
-
-.bottom{
-  margin: 70px 0;
-}
-.EXP{
-  font-size: 30px;
-  color:#0a123f
-}
-
+/*Wrapper class for linear gradient background*/
 .wrapper {
   background-image: linear-gradient(to right, #d3e5f4, #cfc2ef);
   background-repeat: no-repeat;
@@ -156,7 +126,7 @@
   text-align: center;
 }
 
-
+/*Styling for headings and heading underline*/
 .underline{
   width:100%;
   height:5px;
@@ -167,7 +137,6 @@
   left:0;
   overflow:hidden;
 }
-
 
 .underline span{
   width: 15px;
@@ -199,9 +168,9 @@
   top: 100%; /* Move the underline to the bottom of the h1 element */
   left: 0;
   overflow: hidden;
-  /*z-index: -1; /* Send the underline behind the text */
 }
 
+/*Styling for a moving span element in the underline*/
 #product1 .underline span{
   width: 15px;
   height: 100%;
@@ -213,6 +182,7 @@
   animation: transition 2s linear infinite;
 }
 
+/*Keyframes are used to provide animation for moving span element*/
 @keyframes transition{
   0%{
       left:-20px;
@@ -231,6 +201,7 @@
   }
 }
 
+/*Styling for moving logos of vaultofCodes Partners in an infinite scroll*/
 .logos {
   overflow: hidden;
   padding: 60px 0;
@@ -273,6 +244,7 @@
   margin: 0 40px;
 }
 
+/*Styling for individual box elements containing each of the Internship program details in a Grid Layout*/
 .container{
   padding:15px 9%;
   padding-bottom: 100px;
@@ -329,12 +301,14 @@
   transform: scale(1.03);
 }
 
+/*Media Queries are used to make the Grid Layout Responsive*/
 @media (max-width:768px){
   .container{
       padding:20px;
   }
 }
 
+/*Styling for details list in each container of Grid Layout*/
 .details-list {
   color:#777;
   font-size: 15px;
@@ -344,6 +318,7 @@
   margin-left: 55px;
 }
 
+/*Styling for Subscription box*/
 .sub-box {
   display: flex;
   align-items: left;
@@ -368,6 +343,7 @@
   box-shadow: 10px 10px 15px #c7c4c4, 10px 10px 15px #fff;
 }
 
+/*Styling for input of subscription box*/
 .form-box input {
   font-size: 18px;
   color: #000;
@@ -377,6 +353,7 @@
   border: none;
 }
 
+/*Styling for button of Subscription box*/
 .form-box button {
   color: #fff;
   padding: 15px 20px;
@@ -393,6 +370,7 @@
   background: #2e54d3;
 }
 
+/*Styling for Website Footer*/
 footer{
   width: 100%;
   position: relative;
