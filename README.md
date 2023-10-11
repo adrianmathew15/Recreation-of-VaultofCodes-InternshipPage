@@ -80,3 +80,59 @@ Font-awesome library for icons
 
 Google-fonts.
 
+
+# 2.0 WEB DESIGN TECHNOLOGIES USED
+
+The HTML and CSS code for the VaultofCodes Internship Page uses various web design technologies and techniques to create a visually appealing and responsive web page. Here is a list of the web design technologies and concepts used in the code:
+
+## HTML (HyperText Markup Language):
+
+1. **HTML Structure:** The code follows the structure of an HTML document, including the use of elements like `<html>`, `<head>`, and `<body>`.
+
+2. **Semantic HTML Elements:** Semantic elements like `<header>`, `<section>`, `<footer>`, and `<ul>` are used to structure the content and provide meaning to different sections of the web page.
+
+## CSS (Cascading Style Sheets):
+
+3. **CSS Styling:** Cascading Style Sheets are used to apply various styles to HTML elements throughout the page. These styles include properties for colors, fonts, margins, padding, and more.
+
+4. **CSS Selectors:** Various CSS selectors, including element selectors, class selectors, ID selectors, and pseudo-selectors, are used to target specific HTML elements and apply styles.
+
+5. **CSS Box Model:** The code utilizes the CSS box model to control the layout of elements, including padding, margins, and borders.
+
+6. **CSS Flexbox:** The CSS `display: flex;` property is used for creating flexible and responsive layouts, such as the navigation bar and partner logos section.
+
+7. **CSS Grid Layout:** The grid layout system is used to structure the internship program details in a responsive grid format.
+
+8. **CSS Transitions and Animations:** CSS transitions and keyframe animations are applied for various interactive elements, such as underlines and animated span elements under headings.
+
+9. **Media Queries:** Media queries are used to make the page responsive by adjusting the layout and styling for different screen sizes, such as mobile devices.
+
+**External Resources:**
+
+10. **Google Fonts:** An external Google Fonts stylesheet is imported to apply the "Poppins" font family to the page.
+
+11. **Font Awesome Icons:** External Font Awesome CSS files are imported to use icons throughout the page, including social media icons.
+
+**Images:**
+
+12. **Background Images:** The web page uses background images for the welcome banner and various other sections.
+
+**Color Schemes:**
+
+13. **Linear Gradients:** Linear gradients are used to create gradient backgrounds for different sections of the page, such as the welcome banner and footer.
+
+14. **Overlay Effects:** An overlay effect is applied to darken the background image of the welcome banner.
+
+**Navigation:**
+
+15. **Navigation Menu:** The navigation menu is created using HTML lists (`<ul>`) and styled using CSS.
+
+**Layout and Positioning:**
+
+16. **Positioning:** The `position` property in CSS is used for elements such as the welcome banner's text and headings.
+
+17. **Sticky Header:** The header is set to `position: sticky;` to create a sticky navigation bar.
+
+18. **Overflow:** The CSS `overflow` property is used to create scrolling functionality for the partner logos section.
+
+These web design technologies and techniques work together to create an attractive and functional web page with a responsive design. The code demonstrates the use of both HTML and CSS to structure and style the content effectively.
