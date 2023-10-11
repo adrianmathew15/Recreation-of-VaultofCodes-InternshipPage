@@ -409,7 +409,6 @@ footer{
   width: 100px; /* Adjust the width as needed */
   cursor: pointer;
   position: relative;
-  /*top: 700%; /* Move the logo down by 50% of its own height */
   border-radius: 35%;
   margin-left: 10px;
 }

@@ -125,6 +125,25 @@ Author: Adrian Mathew Aloysius
     margin-top: 40px;
   }
 
+
+  @keyframes transition{
+    0%{
+        left:-20px;
+    }
+    100%{
+        left:100%;
+    }
+  }
+  
+  @keyframes slide {
+    from {
+      transform: translateX(0);
+    }
+    to {
+      transform: translateX(-100%);
+    }
+  }
+
   .details-list {
     color:#000000;
     font-size: 20px;
@@ -222,7 +241,6 @@ Author: Adrian Mathew Aloysius
     width: 100px; /* Adjust the width as needed */
     cursor: pointer;
     position: relative;
-    /*top: 700%; /* Move the logo down by 50% of its own height */
     border-radius: 35%;
     margin-left: 10px;
   }
